@@ -20,7 +20,7 @@
 }
 
 - (void)findHighestNumberInArray {
-    NSArray *array = @[@17, @2, @8, @37, @24, @6];
+    NSArray *array = @[@17, @2, @8, @47, @24, @6];
     NSInteger highestNumber = [array[0] integerValue];
 
     for (int index = 0; index < array.count; index++) {
